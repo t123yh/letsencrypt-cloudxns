@@ -1,0 +1,3 @@
+#!/bin/sh
+DIR=$( cd $(dirname $0) ; pwd -P )
+certbot certonly --manual --preferred-challenges=dns --manual-auth-hook $DIR/create.js --manual-cleanup-hook $DIR/cleanup.js -d $1 -n --manual-public-ip-logging-ok

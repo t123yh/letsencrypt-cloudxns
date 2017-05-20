@@ -1,0 +1,14 @@
+{
+  "name": "cloudxns-letsencrypt",
+  "version": "1.0.0",
+  "description": "DNS-01 verification for CloudXNS.",
+  "main": "index.js",
+  "author": "t123yh",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}

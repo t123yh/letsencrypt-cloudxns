@@ -1,0 +1,2 @@
+module.exports.APIKEY = "a8b0c3c19260817a8f0d83e012345678";
+module.exports.SECRETKEY = "8888f19260817956";
